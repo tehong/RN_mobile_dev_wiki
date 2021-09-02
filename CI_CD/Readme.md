@@ -1,5 +1,7 @@
-# mobile Continuous Integration and Continuous Delivery Guide
+# Mobile Continuous Integration and Continuous Delivery Guide
+
 ## Git branching model
+
 The mobile project uses the *Scaled Trunk-Based Development* git branching model as described below.  This is to enable Continuous Integration and by extension Continuous Delivery.
 
 - [Scaled Trunk-Based Development](https://trunkbaseddevelopment.com/#scaled-trunk-based-development)
@@ -19,6 +21,7 @@ The GitHub Flow branching model is lighter than the GitFlow model and provides g
 The mobile project has successfully implemented the [Scaled Trunk-Based Development](https://trunkbaseddevelopment.com/#scaled-trunk-based-development) branching model thus far.
 
 ## Continuous Integration (CI)
+
 mobile project has the following CI practices:
 
 - Unit tests are performed prior to commit via [Jest](https://jestjs.io).
@@ -29,5 +32,6 @@ mobile project has the following CI practices:
 - QA release tests are performed on iOS TestFlight and Android Beta releases.
 
 ## Continuous Delivery (CD)
+
 - New major or maintenance release versions are released via iOS TestFlight and Android Beta program.
 - New minor releases can be released vis [App Center Code Push](../AppCenter/Readme.md) or via iOS TestFlight and Android Beta program.

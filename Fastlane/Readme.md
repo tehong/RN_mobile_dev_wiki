@@ -1,13 +1,17 @@
-# mobile Fastlane Developer Guide
+# Mobile Fastlane CLI Developer Guide
 
 ## Purpose
-Fastlane is used to deploy React Native .
+
+Fastlane CLI is used to deploy React Native .
 
 ## Fastlane CLI Setup
+
 You will need to install fastlane cli in the link below:
+
 - [Fastlane Docs](https://docs.fastlane.tools/)
 
 ## Fastlane App Release
+
 There are three main ways of releasing mobile app via Fastlane tools.  They are invoked via npm scripts.
 
 1. Release major revision to iOS and Android beta release (has native changes).
