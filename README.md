@@ -1,8 +1,8 @@
 # Purpose
 
-Welcome to mobile app wiki!  This wiki has information pertaining to the development of a React Native mobile app.
+Welcome to my React Native mobile app development wiki!  This wiki has information pertaining to the development of a React Native mobile app.
 
-# Documentation
+# Suggested Best Practices
 
 ## Continueous Integration (CI) and Continuous Delivery (CD)
 
