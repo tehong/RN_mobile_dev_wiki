@@ -20,6 +20,22 @@ The GitHub Flow branching model is lighter than the GitFlow model and provides g
 
 I has successfully implemented the [Scaled Trunk-Based Development](https://trunkbaseddevelopment.com/#scaled-trunk-based-development) branching model in several apps thus far.
 
+## Test Driven Development (TDD)
+
+Test Driven Development is one of the important best practices for continuous delivery. TDD is one of those very rare software engineering practices that can make a real difference to the quality of your code. As we know, a defect that can be caught in 5 minutes in the coding phase would take much more times to be detected in the Q/A phrase.  TDD is a iterative and incremental design and development strategy to develop robust code and remove defects in the coding phase. If you are an agile software developer, TDD is a best practice you should include in your software development life cycle.
+
+Here is a quick synthesis of TDD:
+
+- [IBM 5-steps of TDD](https://developer.ibm.com/articles/5-steps-of-test-driven-development/)
+
+Here are some videos for some ins and outs on TDD:
+
+- [Test Driven Development - What? Why? And How?](https://www.youtube.com/watch?v=llaUBH5oayw)
+- [Test Driven Development Tutorial For Beginners](https://www.youtube.com/watch?v=yfP_v6qCdcs&t=179s)
+- [When Test Driven Development Goes Wrong](https://www.youtube.com/watch?v=UWtEVKVPBQ0)
+
+**In this author's opinion, it is highly recommended that TDD is utilized in any software development best practices.**
+
 ## Continuous Integration (CI)
 
 This mobile wiki promotes the following CI practices:
